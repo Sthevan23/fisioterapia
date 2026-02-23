@@ -4,153 +4,154 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thaís Marques - Fisioterapia e Pilates Clínico</title>
+  <meta name="description"
+    content="Thaís Marques Fisioterapia - Reabilitação de elite e Pilates clínico de alta performance.">
+  <title>Thaís Marques | Próxima Geração em Fisioterapia</title>
 
-  <!-- CSS externo -->
-  <link rel="stylesheet" href="styles/index.css">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
-
-  <!-- Font Awesome -->
+  <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Entry Point Stylesheet -->
+  <link rel="stylesheet" href="styles/index.css" />
 </head>
 
 <body>
 
+  <!-- Floating Navigation -->
   <header>
     <nav>
-      <div class="logo">Thaís Marques</div>
+      <div class="logo">
+        <a href="#home">
+          <img src="assets/images/logo.jpeg" alt="Thaís Marques Logo">
+        </a>
+      </div>
       <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#sobre">Quem Sou</a></li>
-        <li><a href="#fisio">Fisioterapia</a></li>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Dra. Thaís</a></li>
+        <li><a href="#fisio">Elite Fisio</a></li>
         <li><a href="#pilates">Pilates</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#contato">Reservar</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
+    <!-- Modern Hero -->
     <section id="home">
-      <div>
-        <h1>Recupere seu movimento e bem-estar</h1>
-        <p>Fisioterapia personalizada e Pilates clínico para aliviar dores, melhorar postura e devolver sua qualidade de
-          vida.</p>
-        <a href="https://wa.me/5537991165725?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o"
-          class="btn" target="_blank">
-          <i class="fab fa-whatsapp" style="margin-right: 8px;"></i> Agende agora
-        </a>
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <span class="section-tag">Reabilitação de Elite</span>
+        <h1>Excelência em Movimento</h1>
+        <p>A união perfeita entre ciência fisioterapêutica e a consciência do Pilates clínico para desbloquear o seu
+          potencial máximo.</p>
+        <div class="action-wrap">
+          <a href="https://wa.me/5591165725" class="btn-primary" target="_blank">
+            Agendar Experiência
+          </a>
+        </div>
       </div>
     </section>
 
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+      <div class="stat-item">
+        <h4>2025</h4>
+        <p>Formada com Excelência</p>
+      </div>
+      <div class="stat-item">
+        <h4>100%</h4>
+        <p>Atendimento Individual</p>
+      </div>
+      <div class="stat-item">
+        <h4>MG</h4>
+        <p>Unidade [Sua Cidade]</p>
+      </div>
+    </div>
+
+    <!-- About Profile (Split Layout) -->
     <section id="sobre">
-      <h2>Quem Sou Eu</h2>
-      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); align-items: center;">
-        <div class="card" style="text-align: left; border-left: 4px solid var(--primary);">
-          <h3><i class="fas fa-user-md"
-              style="font-size: 1.5rem; width: auto; height: auto; background: none; color: var(--primary); padding: 0; margin-right: 10px;"></i>
-            Sobre Mim</h3>
-          <p><strong>Thaís Costa Marques</strong></p>
-          <p>Fisioterapeuta formada em 2025. CREFITO [número].</p>
-          <p>Atuo com paixão em reabilitação, prevenção de dores e bem-estar, unindo o melhor da Fisioterapia
-            convencional com os benefícios do Pilates clínico.</p>
+      <div class="profile-flex">
+        <div class="profile-img-wrap">
+          <img src="assets/images/foto.jpeg" alt="Dra. Thaís Marques" class="profile-photo">
         </div>
-        <div class="card" style="text-align: left; border-left: 4px solid var(--accent);">
-          <h3><i class="fas fa-heartbeat"
-              style="font-size: 1.5rem; width: auto; height: auto; background: none; color: var(--accent); padding: 0; margin-right: 10px;"></i>
-            Minha Missão</h3>
-          <p>Ajudar você a viver sem dor, com mais movimento, equilíbrio e confiança no seu corpo. Ofereço atendimento
-            100% individualizado e focado nas suas necessidades em Piumhi - MG.</p>
+        <div class="profile-text">
+          <span class="section-tag"></span>
+          <h2>Dra. Thaís Costa Marques</h2>
+          <p>Com uma abordagem contemporânea e focada na biomecânica, transformo vidas através de protocolos de
+            reabilitação personalizados.</p>
+          <p>Meu foco não é apenas aliviar a dor, mas restaurar a liberdade de movimento e construir um corpo resiliente
+            e preparado para os desafios do dia a dia.</p>
+          <a href="#contato" class="btn-primary"
+            style="background: var(--brand-primary); color: white; text-decoration: none;">Saiba mais sobre meu
+            método</a>
         </div>
       </div>
     </section>
 
-    <section id="fisio" class="bg-claro">
-      <h2>Fisioterapia</h2>
-      <p style="text-align: center; max-width: 600px; margin: 0 auto 3rem;">Tratamentos especializados para recuperar
-        sua saúde física.</p>
-      <div class="grid">
-        <div class="card">
-          <i class="fas fa-band-aid"></i>
-          <h3>Alívio de Dores</h3>
-          <p>Tratamento para dores lombares, cervicais, nos joelhos, ombros, tendinites e hérnias de disco.</p>
+    <!-- Sophisticated Services -->
+    <section id="fisio">
+      <span class="section-tag">Nossos Programas</span>
+      <h2>Protocolos de Elite</h2>
+      <div class="grid-3">
+        <article class="lux-card">
+          <i class="fas fa-hand-holding-medical"></i>
+          <h3>Fisioterapia Clínica</h3>
+          <p>Tratamentos avançados para dor crônica, lesões ortopédicas e recuperação funcional acelerada.</p>
+        </article>
+        <article class="lux-card">
+          <i class="fas fa-leaf"></i>
+          <h3>Pilates de Performance</h3>
+          <p>Consciência corporal profunda com foco em estabilidade do core, flexibilidade e tônus muscular.</p>
+        </article>
+        <article class="lux-card">
+          <i class="fas fa-shield-virus"></i>
+          <h3>Saúde Preventiva</h3>
+          <p>Análise biomecânica completa para evitar lesões e melhorar a performance esportiva e diária.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Modern FAQ -->
+    <section id="faq">
+      <span class="section-tag">Transparência</span>
+      <h2>Perguntas Frequentes</h2>
+      <div class="faq-wrap">
+        <div class="faq-item">
+          <input type="checkbox" id="q1">
+          <label for="q1" class="faq-label">Os atendimentos são individuais? <i class="fas fa-plus"></i></label>
+          <div class="faq-content">
+            <p>Sim, todos os atendimentos na clínica são 100% individualizados e agendados com exclusividade para
+              garantir foco total nos seus resultados.</p>
+          </div>
         </div>
-        <div class="card">
-          <i class="fas fa-running"></i>
-          <h3>Reabilitação</h3>
-          <p>Recuperação pós-cirúrgica, lesões esportivas, entorses e fraturas.</p>
-        </div>
-        <div class="card">
-          <i class="fas fa-baby"></i>
-          <h3>Gestantes e Idosos</h3>
-          <p>Cuidados especiais para pré/pós-parto, equilíbrio e prevenção de quedas.</p>
-        </div>
-        <div class="card">
-          <i class="fas fa-dumbbell"></i>
-          <h3>Prevenção</h3>
-          <p>Melhora da postura, fortalecimento muscular e ergonomia.</p>
+        <div class="faq-item">
+          <input type="checkbox" id="q2">
+          <label for="q2" class="faq-label">Preciso de encaminhamento médico? <i class="fas fa-plus"></i></label>
+          <div class="faq-content">
+            <p>Não obrigatoriamente. Realizamos uma avaliação completa inicial para entender sua necessidade e traçar o
+              melhor protocolo.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="pilates">
-      <h2>Pilates Clínico</h2>
-      <p style="text-align: center; max-width: 600px; margin: 0 auto 3rem;">Conecte corpo e mente com exercícios
-        controlados.</p>
-      <div class="grid">
-        <div class="card">
-          <i class="fas fa-spa"></i>
-          <h3>Benefícios</h3>
-          <p>Fortalecimento profundo, flexibilidade, equilíbrio e consciência corporal.</p>
-        </div>
-        <div class="card">
-          <i class="fas fa-shield-alt"></i>
-          <h3>Terapêutico</h3>
-          <p>Seguro e ideal para reabilitação de coluna e pós-operatório.</p>
-        </div>
-        <div class="card">
-          <i class="fas fa-users"></i>
-          <h3>Aulas Personalizadas</h3>
-          <p>Individuais, duplas ou pequenos grupos, com foco total em você.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contato" class="contato">
-      <h2>Entre em Contato</h2>
-      <p class="contato-texto">Vamos cuidar do seu bem-estar juntos?</p>
-
-      <div style="margin: 2rem 0;">
-        <a href="https://wa.me/5537991243408" target="_blank"
-          style="color: white; font-size: 1.1rem; margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none;">
-          <i class="fab fa-whatsapp"></i> (37) 99124-3408
-        </a>
-        <a href="https://instagram.com/thaismarques.fisioo" target="_blank"
-          style="color: white; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none;">
-          <i class="fab fa-instagram"></i> @thaismarques.fisioo
-        </a>
-      </div>
-
-      <a href="https://wa.me/5537991243408?text=Ol%C3%A1!%20Vi%20seu%20site%20e%20quero%20saber%20mais"
-        class="btn contato-btn" target="_blank">Agendar Avaliação</a>
+    <!-- Contact & Final CTA -->
+    <section id="contato" style="text-align: center;">
+      <span class="section-tag">Agendamento</span>
+      <h2>Vamos agendar sua sessão?</h2>
+      <p style="margin-bottom: 3rem;">Inicie sua jornada para uma vida sem limitações hoje mesmo.</p>
+      <a href="https://wa.me/5591165725" class="btn-primary"
+        style="background: var(--brand-primary); color: white; text-decoration: none;">
+        Falar com Dra. Thaís
+      </a>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Thaís Marques - Fisioterapia e Pilates Clínico</p>
-    <div class="social">
-      <a href="https://www.instagram.com/thaismarques.fisioo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-        target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-      <a href="https://wa.me/5537991243408" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-    </div>
-  </footer>
 
-  <a href="https://wa.me/5537991165725" class="whatsapp-float" target="_blank">
+
+
+  <!-- WhatsApp Flutuante -->
+  <a href="https://wa.me/5591165725" class="whatsapp-float" target="_blank" aria-label="Contato via WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
 

@@ -103,6 +103,29 @@ nav {
   transition: transform 0.3s var(--anim-smooth);
 }
 
+/* Botão Hamburger (Escondido por padrão no Desktop) */
+.menu-checkbox {
+  display: none;
+}
+
+.menu-btn {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  z-index: 3000;
+  padding: 10px;
+}
+
+.menu-btn span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background: var(--brand-primary);
+  border-radius: 2px;
+  transition: all 0.3s var(--anim-smooth);
+}
+
 .logo img:hover {
   transform: scale(1.05);
 }

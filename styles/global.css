@@ -303,10 +303,16 @@ section h2 {
   margin-bottom: 4rem;
 }
 
-.grid-3 {
+.grid-services {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
+}
+
+@media (max-width: 900px) {
+  .grid-services {
+    grid-template-columns: 1fr;
+  }
 }
 
 .lux-card {

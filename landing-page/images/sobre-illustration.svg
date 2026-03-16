@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" fill="none" role="img" aria-label="Ilustração abstrata reabilitação e pilates clínico">
+  <defs>
+    <linearGradient id="s1" x1="120" y1="120" x2="820" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E" stop-opacity="0.72"/>
+      <stop offset="0.5" stop-color="#0EA5A4" stop-opacity="0.70"/>
+      <stop offset="1" stop-color="#1D4ED8" stop-opacity="0.62"/>
+    </linearGradient>
+    <radialGradient id="s2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(440 260) rotate(25) scale(520 380)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="600" rx="44" fill="url(#s2)"/>
+
+  <g filter="url(#soft)">
+    <path d="M170 420c-70-92-30-226 84-282 114-56 246-12 316 80 70 92 34 212-80 268-114 56-250 26-320-66Z" fill="url(#s1)"/>
+    <path d="M620 116c98 26 162 104 150 186-12 82-96 140-194 114-98-26-166-114-154-196 12-82 100-130 198-104Z" fill="#1D4ED8" fill-opacity="0.18"/>
+  </g>
+
+  <g opacity="0.65">
+    <path d="M160 478h580" stroke="#0B1220" stroke-opacity="0.12" stroke-width="10" stroke-linecap="round"/>
+    <path d="M210 526h480" stroke="#0B1220" stroke-opacity="0.10" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.95">
+    <circle cx="720" cy="152" r="10" fill="#0EA5A4"/>
+    <circle cx="250" cy="140" r="9" fill="#22C55E"/>
+    <circle cx="610" cy="420" r="8" fill="#1D4ED8"/>
+  </g>
+</svg>

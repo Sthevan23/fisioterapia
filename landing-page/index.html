@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Thaís Marques – Fisioterapia e Pilates Clínico. Reabilitação, prevenção de lesões e pilates clínico para aliviar dores, recuperar movimentos e melhorar sua qualidade de vida."
+    />
+    <title>Thaís Marques – Fisioterapia e Pilates Clínico</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="header" id="topo">
+      <div class="container header__inner">
+        <a class="brand" href="#topo" aria-label="Ir para o topo">
+          <img class="brand__logo" src="./images/logo.jpeg" alt="Thaís Marques – Fisioterapia e Pilates Clínico" width="44" height="44" />
+          <span class="brand__text">
+            <strong>Thaís Marques</strong>
+            <small>Fisioterapia & Pilates Clínico</small>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          data-nav-toggle
+        >
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="nav" id="menu" aria-label="Menu principal" data-nav>
+          <a class="nav__link" href="#sobre" data-nav-link>Sobre</a>
+          <a class="nav__link" href="#servicos" data-nav-link>Serviços</a>
+          <a class="nav__link" href="#beneficios" data-nav-link>Benefícios</a>
+          <a class="nav__link" href="#depoimentos" data-nav-link>Depoimentos</a>
+          <a class="nav__link" href="#contato" data-nav-link>Contato</a>
+          <a class="btn btn--small btn--primary" href="#" data-whatsapp-link>
+            Agendar pelo WhatsApp
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" aria-label="Apresentação">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="pill reveal" data-reveal>
+              <span class="dot" aria-hidden="true"></span>
+              Atendimento humanizado • Avaliação individual
+            </p>
+
+            <h1 class="hero__title reveal" data-reveal>
+              <span class="hero__name">Thaís Marques</span>
+              <span class="hero__subtitle">Fisioterapia e Pilates Clínico</span>
+            </h1>
+
+            <p class="hero__lead reveal" data-reveal>
+              A união entre fisioterapia e pilates clínico para recuperar movimentos, aliviar
+              dores e melhorar sua qualidade de vida.
+            </p>
+
+            <div class="hero__actions reveal" data-reveal>
+              <a class="btn btn--primary" href="#" data-whatsapp-link>
+                <span class="btn__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                    <path
+                      d="M20.5 11.9c0 4.7-3.8 8.5-8.5 8.5a8.5 8.5 0 0 1-4.1-1.1L3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 20.5 11.9Z"
+                      stroke="currentColor"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M9.2 9.1c.2-.6.5-.7 1-.7h.9c.3 0 .6.1.7.4l.8 2c.1.3.1.6-.1.8l-.7.7c-.2.2-.2.5 0 .8.6 1.1 1.6 2.1 2.7 2.7.3.2.6.2.8 0l.7-.7c.2-.2.5-.2.8-.1l2 .8c.3.1.4.4.4.7v.9c0 .5-.1.8-.7 1-1.2.5-2.8.3-4.9-.9-2.2-1.3-4-3.1-5.3-5.3-1.2-2.1-1.4-3.7-.9-4.9Z"
+                      fill="currentColor"
+                      opacity=".95"
+                    />
+                  </svg>
+                </span>
+                Agendar pelo WhatsApp
+              </a>
+              <a class="btn btn--ghost" href="#servicos">
+                Ver serviços
+              </a>
+            </div>
+
+            <div class="hero__stats reveal" data-reveal>
+              <div class="stat">
+                <strong>Reabilitação</strong>
+                <span>movimento com segurança</span>
+              </div>
+              <div class="stat">
+                <strong>Prevenção</strong>
+                <span>lesões e recidivas</span>
+              </div>
+              <div class="stat">
+                <strong>Pilates clínico</strong>
+                <span>controle, força e postura</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual" aria-hidden="true">
+            <img
+              class="hero__image reveal"
+              data-reveal
+              src="./images/foto1.jpeg"
+              alt="Thaís Marques – Fisioterapia e Pilates Clínico"
+              loading="eager"
+              decoding="async"
+            />
+            <div class="card-glass reveal" data-reveal>
+              <div class="card-glass__top">
+                <div class="avatar">
+                  <img src="./images/logo.jpeg" alt="" width="46" height="46" />
+                </div>
+                <div class="card-glass__meta">
+                  <strong>Atendimento</strong>
+                  <span>Fisioterapia • Pilates Clínico</span>
+                </div>
+              </div>
+              <div class="card-glass__mid">
+                <div class="chip">
+                  <span class="chip__icon" aria-hidden="true">✓</span>
+                  Avaliação individual
+                </div>
+                <div class="chip">
+                  <span class="chip__icon" aria-hidden="true">✓</span>
+                  Plano de tratamento
+                </div>
+                <div class="chip">
+                  <span class="chip__icon" aria-hidden="true">✓</span>
+                  Evolução acompanhada
+                </div>
+              </div>
+              <div class="card-glass__bottom">
+                <a class="btn btn--primary btn--block" href="#" data-whatsapp-link>
+                  Quero agendar
+                </a>
+              </div>
+            </div>
+
+            <div class="blob blob--a"></div>
+            <div class="blob blob--b"></div>
+            <div class="gridlines"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sobre">
+        <div class="container two-col">
+          <div class="two-col__text">
+            <h2 class="section__title reveal" data-reveal>Sobre</h2>
+            <p class="section__lead reveal" data-reveal>
+              Sou <strong>Thaís Marques</strong>, fisioterapeuta especializada em
+              <strong>reabilitação física</strong>, <strong>prevenção de lesões</strong> e
+              <strong>pilates clínico</strong>.
+            </p>
+            <p class="reveal" data-reveal>
+              Meu objetivo é ajudar você a retomar movimentos com confiança, reduzir dores e
+              construir um corpo mais forte e funcional — com um atendimento acolhedor,
+              avaliação detalhada e um plano de tratamento feito sob medida.
+            </p>
+
+            <div class="highlights reveal" data-reveal>
+              <div class="highlight">
+                <span class="highlight__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                    <path
+                      d="M12 21s-7-4.4-9.3-9.2C.7 7.5 3.1 4.5 6.4 4.5c1.8 0 3.4 1 4.3 2.5 1-1.5 2.6-2.5 4.3-2.5 3.3 0 5.7 3 3.7 7.3C19 16.6 12 21 12 21Z"
+                      stroke="currentColor"
+                      stroke-width="1.7"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <div>
+                  <strong>Humanização</strong>
+                  <p>Escuta ativa e orientação clara em cada etapa.</p>
+                </div>
+              </div>
+              <div class="highlight">
+                <span class="highlight__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                    <path
+                      d="M12 3v18M3 12h18"
+                      stroke="currentColor"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M7.2 7.2l9.6 9.6M16.8 7.2l-9.6 9.6"
+                      stroke="currentColor"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      opacity=".45"
+                    />
+                  </svg>
+                </span>
+                <div>
+                  <strong>Tratamento completo</strong>
+                  <p>Fisioterapia + pilates clínico alinhados ao seu objetivo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="two-col__card reveal" data-reveal>
+            <div class="info-card">
+              <img
+                class="info-card__image"
+                src="./images/foto2.jpeg"
+                alt="Thaís Marques – Fisioterapia e Pilates Clínico"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>O que você pode esperar</h3>
+              <ul class="checklist">
+                <li>avaliação funcional e análise de dor</li>
+                <li>metas realistas e progresso mensurável</li>
+                <li>exercícios guiados e correção de movimento</li>
+                <li>orientações para o dia a dia</li>
+              </ul>
+              <div class="info-card__cta">
+                <a class="btn btn--primary btn--block" href="#" data-whatsapp-link>
+                  Agendar avaliação
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--tint" id="servicos">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title reveal" data-reveal>Serviços</h2>
+            <p class="section__subtitle reveal" data-reveal>
+              Planos de cuidado sob medida para sua rotina e necessidade.
+            </p>
+          </div>
+
+          <div class="cards">
+            <article class="card reveal" data-reveal>
+              <div class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none">
+                  <path
+                    d="M7 13c1.7 1.7 3.4 2.6 5 2.6S15.3 14.7 17 13"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M8 6h8M9 9h6"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    opacity=".8"
+                  />
+                  <path
+                    d="M6 4.5h12a2 2 0 0 1 2 2V19a1.5 1.5 0 0 1-1.5 1.5H5.5A1.5 1.5 0 0 1 4 19V6.5a2 2 0 0 1 2-2Z"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="card__title">Fisioterapia Ortopédica</h3>
+              <p class="card__desc">
+                Tratamento para dores e disfunções musculoesqueléticas (coluna, joelho, ombro e
+                outras articulações), com foco em função e retorno às atividades.
+              </p>
+            </article>
+
+            <article class="card reveal" data-reveal>
+              <div class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none">
+                  <path
+                    d="M7 18c2.8-2.8 7.2-2.8 10 0"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M6.5 7.5c2-2 9-2 11 0"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    opacity=".8"
+                  />
+                  <path
+                    d="M12 4v16"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="card__title">Pilates Clínico</h3>
+              <p class="card__desc">
+                Exercícios com controle e alinhamento para fortalecer, melhorar postura e
+                prevenir dores, respeitando seu nível e suas limitações.
+              </p>
+            </article>
+
+            <article class="card reveal" data-reveal>
+              <div class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none">
+                  <path
+                    d="M8.2 12.1 11 14.9 16.2 9.7"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 21a9 9 0 1 0-9-9"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    opacity=".75"
+                  />
+                  <path
+                    d="M3 12v6a3 3 0 0 0 3 3h6"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    opacity=".5"
+                  />
+                </svg>
+              </div>
+              <h3 class="card__title">Reabilitação Pós-Cirúrgica</h3>
+              <p class="card__desc">
+                Recuperação progressiva com foco em mobilidade, força e segurança, ajudando a
+                retomar suas atividades com confiança.
+              </p>
+            </article>
+
+            <article class="card reveal" data-reveal>
+              <div class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none">
+                  <path
+                    d="M12 2 14.5 8.2 21 9l-5 4.2 1.6 6.3L12 16.8 6.4 19.5 8 13.2 3 9l6.5-.8L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="card__title">Prevenção de Lesões</h3>
+              <p class="card__desc">
+                Fortalecimento e educação do movimento para reduzir risco de lesão e melhorar
+                desempenho no trabalho, no esporte e no dia a dia.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="beneficios">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title reveal" data-reveal>Benefícios</h2>
+            <p class="section__subtitle reveal" data-reveal>
+              Ganhos reais que você sente no corpo e na rotina.
+            </p>
+          </div>
+
+          <div class="benefits">
+            <div class="benefit reveal" data-reveal>
+              <span class="benefit__icon" aria-hidden="true">●</span>
+              <div>
+                <strong>Alívio de dores</strong>
+                <p>Estratégias ativas e terapia manual quando indicado.</p>
+              </div>
+            </div>
+            <div class="benefit reveal" data-reveal>
+              <span class="benefit__icon" aria-hidden="true">●</span>
+              <div>
+                <strong>Melhora da postura</strong>
+                <p>Consciência corporal e fortalecimento do centro (core).</p>
+              </div>
+            </div>
+            <div class="benefit reveal" data-reveal>
+              <span class="benefit__icon" aria-hidden="true">●</span>
+              <div>
+                <strong>Fortalecimento muscular</strong>
+                <p>Progressão segura com técnica e controle de movimento.</p>
+              </div>
+            </div>
+            <div class="benefit reveal" data-reveal>
+              <span class="benefit__icon" aria-hidden="true">●</span>
+              <div>
+                <strong>Recuperação de movimentos</strong>
+                <p>Mobilidade e função para tarefas do dia a dia.</p>
+              </div>
+            </div>
+            <div class="benefit reveal" data-reveal>
+              <span class="benefit__icon" aria-hidden="true">●</span>
+              <div>
+                <strong>Mais qualidade de vida</strong>
+                <p>Volte a se movimentar com conforto e autonomia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--tint" id="depoimentos">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title reveal" data-reveal>Depoimentos</h2>
+            <p class="section__subtitle reveal" data-reveal>
+              O que pacientes dizem sobre a experiência de cuidado.
+            </p>
+          </div>
+
+          <div class="testimonials">
+            <figure class="quote reveal" data-reveal>
+              <blockquote>
+                “Cheguei com dor lombar constante. Em poucas semanas, já estava com mais
+                mobilidade e segurança para treinar. Atendimento impecável!”
+              </blockquote>
+              <figcaption>
+                <span class="quote__name">Mariana S.</span>
+                <span class="quote__detail">Lombalgia</span>
+              </figcaption>
+            </figure>
+
+            <figure class="quote reveal" data-reveal>
+              <blockquote>
+                “A Thaís explica tudo com muita clareza e passa exercícios que fazem sentido
+                para minha rotina. Senti melhora na postura e nas dores no pescoço.”
+              </blockquote>
+              <figcaption>
+                <span class="quote__name">Rafael M.</span>
+                <span class="quote__detail">Cervicalgia</span>
+              </figcaption>
+            </figure>
+
+            <figure class="quote reveal" data-reveal>
+              <blockquote>
+                “No pós-cirúrgico, eu tinha medo de me movimentar. O plano foi evoluindo aos
+                poucos e hoje me sinto confiante. Recomendo muito.”
+              </blockquote>
+              <figcaption>
+                <span class="quote__name">Carla P.</span>
+                <span class="quote__detail">Pós-cirúrgico</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contato">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title reveal" data-reveal>Contato</h2>
+            <p class="section__subtitle reveal" data-reveal>
+              Tire dúvidas e agende seu atendimento.
+            </p>
+          </div>
+
+          <div class="contact">
+            <div class="contact__info reveal" data-reveal>
+              <div class="contact-card">
+                <h3>Fale comigo</h3>
+                <p>Escolha o canal mais prático para você.</p>
+
+                <div class="contact-items">
+                  <div class="contact-item">
+                    <span class="contact-item__icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                        <path
+                          d="M20.5 11.9c0 4.7-3.8 8.5-8.5 8.5a8.5 8.5 0 0 1-4.1-1.1L3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 20.5 11.9Z"
+                          stroke="currentColor"
+                          stroke-width="1.7"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <div>
+                      <strong>WhatsApp</strong>
+                      <a href="#" data-whatsapp-link>Agendar agora</a>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <span class="contact-item__icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                        <path
+                          d="M6.6 10.5c1.4 2.7 3.6 4.9 6.3 6.3.5.3 1.1.1 1.5-.2l1.5-1.2c.4-.3.9-.4 1.3-.2l2.1.9c.7.3 1 .9.9 1.6-.2 1.3-1.1 2.3-2.4 2.4-2.7.2-6.2-1.1-9.3-4.2C6.4 12.7 5.1 9.2 5.3 6.5 5.4 5.2 6.4 4.3 7.7 4.1c.7-.1 1.3.2 1.6.9l.9 2.1c.2.4.1.9-.2 1.3l-1.2 1.5c-.3.4-.4 1-.2 1.5Z"
+                          stroke="currentColor"
+                          stroke-width="1.7"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <div>
+                      <strong>Telefone</strong>
+                      <a href="tel:+5537991165725" data-phone>(37) 99116-5725</a>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <span class="contact-item__icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                        <path
+                          d="M12 21s7-4.6 7-11a7 7 0 0 0-14 0c0 6.4 7 11 7 11Z"
+                          stroke="currentColor"
+                          stroke-width="1.7"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M12 10.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                          stroke="currentColor"
+                          stroke-width="1.7"
+                        />
+                      </svg>
+                    </span>
+                    <div>
+                      <strong>Endereço</strong>
+                      <span data-address>Rua Exemplo, 123 – Centro, Sua Cidade</span>
+                    </div>
+                  </div>
+                </div>
+
+                <a class="btn btn--primary btn--block" href="#" data-whatsapp-link>
+                  Agendar pelo WhatsApp
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__form reveal" data-reveal>
+              <form class="form" id="formContato" novalidate>
+                <h3>Envie uma mensagem</h3>
+
+                <label class="field">
+                  <span>Nome</span>
+                  <input type="text" name="nome" autocomplete="name" required minlength="2" />
+                  <small class="field__error" aria-live="polite"></small>
+                </label>
+
+                <label class="field">
+                  <span>E-mail</span>
+                  <input type="email" name="email" autocomplete="email" required />
+                  <small class="field__error" aria-live="polite"></small>
+                </label>
+
+                <label class="field">
+                  <span>Telefone/WhatsApp</span>
+                  <input type="tel" name="telefone" autocomplete="tel" required minlength="8" />
+                  <small class="field__error" aria-live="polite"></small>
+                </label>
+
+                <label class="field">
+                  <span>Mensagem</span>
+                  <textarea name="mensagem" rows="4" required minlength="10"></textarea>
+                  <small class="field__error" aria-live="polite"></small>
+                </label>
+
+                <button class="btn btn--primary" type="submit">
+                  Enviar mensagem
+                </button>
+
+                <p class="form__hint">
+                  Ao enviar, vamos preparar um retorno para você. Você também pode agendar
+                  diretamente pelo WhatsApp.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container cta__inner reveal" data-reveal>
+          <div class="cta__text">
+            <h2>Pronto(a) para cuidar do seu corpo?</h2>
+            <p>
+              Agende sua avaliação e dê o primeiro passo para se movimentar melhor, com menos
+              dor e mais confiança.
+            </p>
+          </div>
+          <div class="cta__actions">
+            <a class="btn btn--primary" href="#" data-whatsapp-link>Agendar pelo WhatsApp</a>
+            <a class="btn btn--ghost" href="#contato">Falar por aqui</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>
+          © <span id="ano"></span> <strong>Thaís Marques</strong> — Fisioterapia e Pilates
+          Clínico.
+        </p>
+        <p class="footer__small">
+          Desenvolvido para uma experiência rápida, acessível e responsiva.
+        </p>
+      </div>
+    </footer>
+
+    <a class="wa-float" href="#" aria-label="Agendar pelo WhatsApp" data-whatsapp-link>
+      <span class="wa-float__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+          <path
+            d="M20.5 11.9c0 4.7-3.8 8.5-8.5 8.5a8.5 8.5 0 0 1-4.1-1.1L3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 20.5 11.9Z"
+            stroke="currentColor"
+            stroke-width="1.7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M9.2 9.1c.2-.6.5-.7 1-.7h.9c.3 0 .6.1.7.4l.8 2c.1.3.1.6-.1.8l-.7.7c-.2.2-.2.5 0 .8.6 1.1 1.6 2.1 2.7 2.7.3.2.6.2.8 0l.7-.7c.2-.2.5-.2.8-.1l2 .8c.3.1.4.4.4.7v.9c0 .5-.1.8-.7 1-1.2.5-2.8.3-4.9-.9-2.2-1.3-4-3.1-5.3-5.3-1.2-2.1-1.4-3.7-.9-4.9Z"
+            fill="currentColor"
+            opacity=".98"
+          />
+        </svg>
+      </span>
+      <span class="wa-float__text">WhatsApp</span>
+    </a>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
